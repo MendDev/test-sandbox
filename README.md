@@ -53,6 +53,8 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 mysql>
 ```
 
+# Coding Test Instructions
+
 ```
 1. Create a web page task list that submits form data and inserts it into the database then shows the updated task list. 
 2. Also allow the deleting of those entries and show the updated list after deletion.
