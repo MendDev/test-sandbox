@@ -52,3 +52,25 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql>
 ```
+
+```
+1. Create a web page task list that submits form data and inserts it into the database then shows the updated task list. 
+2. Also allow the deleting of those entries and show the updated list after deletion.
+3. Must use JavaScript, PHP and MySQL.
+4. Should not take you longer than 3-4 hours to complete.
+5. The front end should make ajax restful calls to a php api endpoint.
+6. (optional) Make task editable.
+
+You may use any frameworks or extra libraries that you wish. 
+You may submit the test as a PR.
+
+We specifically are looking for your implementation of the following in your code:
+* Good programming principles
+* Validation
+* Unit testing
+* Restful 
+* Ajax
+
+We are not looking for examples of:
+* CSS styling, color choices etc
+```
