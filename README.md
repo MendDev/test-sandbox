@@ -56,15 +56,15 @@ mysql>
 # Coding Test Instructions
 
 ```
-1. Create a web page task list that submits form data and inserts it into the database then shows the updated task list. 
-2. Also allow the deleting of those entries and show the updated list after deletion.
-3. Must use JavaScript, PHP and MySQL.
-4. Should not take you longer than 3-4 hours to complete.
+1. Please fork this repo, and submit a PR when you are done.
+2. Create a web page "task list" that submits form data and inserts it into the database then shows the updated task list. 
+3. Also allow the deleting of those entries and show the updated list after deletion.
+4. Must use JavaScript, PHP and MySQL.
 5. The front end should make ajax restful calls to a php api endpoint.
-6. (optional) Make task editable.
+6. (optional) Make task list item editable.
 
+Shouldn't take you longer than 3-4 hours to complete.
 You may use any frameworks or extra libraries that you wish. 
-You may submit the test as a PR.
 
 We specifically are looking for your implementation of the following in your code:
 * Good programming principles
