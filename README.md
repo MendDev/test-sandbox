@@ -2,7 +2,8 @@
 
 ```
 1. Please fork this repo, and submit a PR when you are done.
-2. Create a web page "task list" that submits form data and inserts it into the database then shows the updated task list. 
+2. Create a web page "task list" that submits form data and inserts it into the database 
+   then shows the updated task list. 
 3. Also allow the deleting of those entries and show the updated list after deletion.
 4. Must use JavaScript, PHP and MySQL.
 5. The front end should make ajax restful calls to a php api endpoint.
