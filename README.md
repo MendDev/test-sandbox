@@ -53,7 +53,32 @@ Your LAMP stack is now ready!! You can access it via `http://localhost`.
 
 ## Configuration and Usage
 
-Please read from appropriate version branch.
+This package comes with default configuration options. You can modify them by creating .env file in your root directory.
+
+To make it easy, just copy the content from sample.env file and update the environment variable values as per your need.
+
+### (Additional from Mend) 
+
+1. Install Docker for Mac/Windows, and verify that it's running. You should see the docker icon near the date-time after the installation is complete.
+
+2. From the command line navigate to the repo folder and run `docker-compose up`, this should kick off a series of downloads and installs.
+
+3. Once it's done installing and building the container, you can run the command `docker ps` to verify that the container is up.
+
+4. At this point, as long as you don't have any other server listening to port 80, navigate your browser to 127.0.0.1. You can also change the port in the docker-compose.yml file as needed if port 80 conflicts with any existing set up.
+
+5. You should be able to navigate to the repo via your IDE and work in the folder named test-sandbox/www to add your code.
+
+## Resetting the containers
+To remove any existing conflicting containers, images, and volumes, from the command line run the following.
+
+```
+docker-compose down
+yes | docker system prune -a
+docker volume rm $(docker volume ls -q)
+docker images purge -a
+```
+
 
 ### Connect to MySQL
 
