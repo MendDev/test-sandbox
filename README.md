@@ -53,9 +53,7 @@ Your LAMP stack is now ready!! You can access it via `http://localhost`.
 
 ## Configuration and Usage
 
-This package comes with default configuration options. You can modify them by creating .env file in your root directory.
-
-To make it easy, just copy the content from sample.env file and update the environment variable values as per your need.
+https://github.com/sprintcube/docker-compose-lamp/tree/7.4.x
 
 ### (Additional from Mend) 
 
