@@ -7,7 +7,8 @@
 3. Also allow the deleting of those entries and show the updated list after deletion.
 4. Must use JavaScript, PHP and MySQL.
 5. The front end should make ajax restful calls to a php api endpoint.
-6. (optional) Make task list item editable.
+6. Add SQL for creating the database that you are using.
+7. (optional) Make task list item editable.
 
 Shouldn't take you longer than 3-4 hours to complete.
 You may use any frameworks or extra libraries that you wish. 
@@ -53,9 +54,7 @@ Your LAMP stack is now ready!! You can access it via `http://localhost`.
 
 ## Configuration and Usage
 
-This package comes with default configuration options. You can modify them by creating .env file in your root directory.
-
-To make it easy, just copy the content from sample.env file and update the environment variable values as per your need.
+https://github.com/sprintcube/docker-compose-lamp/tree/7.4.x
 
 ### (Additional from Mend) 
 
