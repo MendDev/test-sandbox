@@ -50,7 +50,18 @@ cp sample.env .env
 docker-compose up -d
 ```
 
-Your LAMP stack is now ready!! You can access it via `http://localhost`.
+Your LAMP stack is now ready. You can access it via `http://localhost`.
+
+### Composer and Db Setup
+
+Connect to the container  
+`docker exec -ti mend-webserver /bin/bash`
+
+Install composer files and run migration
+```
+composer install
+vendor/bin/phinx migrate
+```
 
 ## Configuration and Usage
 
