@@ -23,8 +23,9 @@ We specifically are looking for your implementation of the following in your cod
 We are not looking for examples of:
 * CSS styling, color choices etc
 
-Please list the files, or the main entry points, that you've created, as opposed 
-to vendor/third party files in your PR so that we can easily find your work.
+Please list the files and/or the main entry points in the PR. So that we we 
+can easily find your work. This will help us see what you have written as 
+opposed to what might have been added by third party code.
 ```
 
 --------
